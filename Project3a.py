@@ -2,7 +2,7 @@ from bottle import *
 from sys import argv
 @route('/')
 def index():
-    info = {'home':'Home','info':{'Friðrik':'0908012440','Ari':'0605025169'},'Name':'Home','Sum':'none','teacher':'Gunnar Þórunnarson','developer':'Friðrik Fannar Söebech',}
+    info = {'home':'Home','info':{'Friðrik':'0908012440','Ari':'0605025169','Daníel':'2105012230'},'Name':'Home','Sum':'none','teacher':'Gunnar Þórunnarson','developer':'Friðrik Fannar Söebech',}
     return template('index.tpl',info)
 @route('/<page>')
 def KT(page):
